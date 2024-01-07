@@ -3,10 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
 body {
+  margin-top: 50px;
+}
+header,
+main {
   width: 1320px;
-  margin: 50px auto 0;
+  margin: 0 auto 120px auto;
   /* font-family: "Merriweather", serif;
   font-family: "Inter", sans-serif; */
 }
@@ -15,7 +18,7 @@ body {
 .banner-section {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Banner Image.png");
-  background-size: cover;
+
   background-repeat: no-repeat;
   border-radius: 16px;
   font-family: "Merriweather", serif;
@@ -163,4 +166,60 @@ body {
 .portfolio-img-box-down {
   display: flex;
   gap: 24px;
+}
+/* portfolio section starts here */
+.subscribe-section {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  background-size: cover;
+  text-align: center;
+}
+
+.subscribe-container {
+  max-width: 896px;
+  padding: 80px 212px;
+  /* margin: auto; */
+}
+.subscribe-header {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+  margin-top: 40px;
+}
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  font-family: "Inter", sans-serif;
+  margin-bottom: 50px;
+}
+.subscribe-form {
+  display: flex;
+  max-width: 648px;
+  gap: 0;
+  margin: 0 auto;
+}
+.email-input {
+  border: 0;
+  padding: 25px;
+  border-radius: 35px 0 0 35px;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.submit-input {
+  padding: 25px 55px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
