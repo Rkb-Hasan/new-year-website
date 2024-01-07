@@ -1,0 +1,39 @@
+/* shared styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1320px;
+  margin: 50px auto 0;
+  /* font-family: "Merriweather", serif;
+  font-family: "Inter", sans-serif; */
+}
+
+/* banner section starts here */
+.banner-section {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner Image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.banner-container {
+  text-align: center;
+  padding: 233px 344px 177px 344px;
+}
+.banner-container .banner-upper-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.banner-container .banner-down-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
