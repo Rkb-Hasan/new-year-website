@@ -119,6 +119,8 @@ main {
   padding-left: 32px;
 }
 /* welcome section ends here */
+
+/* portfolio section starts here */
 .portfolio-section {
   margin: 120px 0;
 }
@@ -167,7 +169,9 @@ main {
   display: flex;
   gap: 24px;
 }
-/* portfolio section starts here */
+/*portfolio section ends here  */
+
+/* subscribe section starts here */
 .subscribe-section {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -222,4 +226,63 @@ main {
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
+}
+/*  subscribe section ends here*/
+
+/* footer section starts here */
+.footer-section {
+  background-color: #070211;
+  padding: 120px 140px;
+}
+.address-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.address-left {
+  max-width: 375px;
+}
+.left-description {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+.address-right {
+  max-width: 250px;
+}
+.right-description {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+.logos {
+  vertical-align: baseline;
+}
+hr {
+  background: rgba(255, 255, 255, 0.15);
+}
+.social-links {
+  margin: 48px 0;
+  text-align: center;
+}
+.social-links a {
+  margin-right: 25px;
+}
+.rights-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.rights-container p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
