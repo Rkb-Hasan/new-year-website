@@ -10,7 +10,7 @@ body {
   /* font-family: "Merriweather", serif;
   font-family: "Inter", sans-serif; */
 }
-
+/* header styles */
 /* banner section starts here */
 .banner-section {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -18,6 +18,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 16px;
+  font-family: "Merriweather", serif;
 }
 
 .banner-container {
@@ -26,14 +27,44 @@ body {
 }
 .banner-container .banner-upper-title {
   color: #fff;
-  font-family: "Merriweather", serif;
   font-size: 32px;
   font-weight: 400;
 }
 .banner-container .banner-down-title {
   color: #fff;
-  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
 }
+/* banner section ends here */
+
+/* main styles */
+/* discount section starts here */
+.discount-container {
+  width: 805px;
+  margin: 120px auto;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.discount-title {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+}
+.discount-description {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.discount-subtitle {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+}
+.discount-image-box {
+  margin-top: 48px;
+}
+
+/* welcome section starts here */
