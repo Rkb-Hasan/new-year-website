@@ -10,8 +10,6 @@ header,
 main {
   width: 1320px;
   margin: 0 auto 120px auto;
-  /* font-family: "Merriweather", serif;
-  font-family: "Inter", sans-serif; */
 }
 /* header styles */
 /* banner section starts here */
@@ -26,7 +24,7 @@ main {
 
 .banner-container {
   text-align: center;
-  padding: 233px 344px 177px 344px;
+  padding: 200px 344px 177px 344px;
 }
 .banner-container .banner-upper-title {
   color: #fff;
@@ -37,7 +35,7 @@ main {
   color: #fff;
   font-size: 72px;
   font-weight: 900;
-  line-height: 95px; /* 131.944% */
+  line-height: 95px;
 }
 /* banner section ends here */
 
@@ -60,6 +58,7 @@ main {
   font-size: 24px;
   font-weight: 500;
   margin-top: 50px;
+  margin-bottom: 16px;
 }
 .discount-subtitle {
   color: #070211;
@@ -95,7 +94,7 @@ main {
   font-family: "Merriweather", serif;
   font-size: 64px;
   font-weight: 900;
-  line-height: 88px; /* 137.5% */
+  line-height: 88px;
   letter-spacing: 7.04px;
   margin-bottom: 25px;
 }
@@ -104,7 +103,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
   margin-bottom: 48px;
 }
 .welcome-button {
@@ -147,7 +146,7 @@ main {
   color: #f00;
   font-size: 32px;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
 }
 
@@ -196,7 +195,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
 }
 .img-box {
   max-width: 463px;
@@ -221,7 +220,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
 }
 .right-img-box {
   margin-top: 43px;
@@ -263,7 +262,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
 }
 
 .sale-image-container {
@@ -323,6 +322,8 @@ main {
   opacity: 0.8;
   transition: all 0.5s ease-out;
 }
+
+/* portfolio hover effect */
 .portfolio-img-container img:hover {
   opacity: 1;
   transform: skew(-1deg);
@@ -349,7 +350,6 @@ main {
 .subscribe-container {
   max-width: 896px;
   padding: 80px 212px;
-  /* margin: auto; */
 }
 .subscribe-header {
   color: #070211;
@@ -358,12 +358,13 @@ main {
   text-transform: capitalize;
   font-family: "Merriweather", serif;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 .subscribe-description {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
   font-family: "Inter", sans-serif;
   margin-bottom: 50px;
 }
@@ -414,7 +415,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
 }
 .address-right {
   max-width: 250px;
@@ -427,7 +428,7 @@ main {
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
 }
 .logos {
   vertical-align: baseline;
@@ -458,3 +459,4 @@ hr {
   font-size: 24px;
   font-weight: 500;
 }
+/* footer section ends here */
