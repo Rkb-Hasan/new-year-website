@@ -131,7 +131,7 @@ main {
   text-align: center;
   font-family: "Inter", sans-serif;
   padding: 100px 385px 125px;
-  margin-top: 120px;
+  margin: 120px 0;
 }
 
 .join-info {
@@ -165,6 +165,68 @@ main {
   border: 0;
 }
 /* join-section ends here*/
+
+/* ellipse section starts here */
+.ellipse-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-box {
+  max-width: 393px;
+  text-align: left;
+}
+.left-box-title {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.left-box-header {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.left-box-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.img-box {
+  max-width: 463px;
+  border-radius: 463px;
+  border: 15px solid #f00;
+  padding: 38px;
+}
+
+.right-box {
+  max-width: 276px;
+  text-align: left;
+}
+.right-box-title {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.right-box-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.right-img-box {
+  margin-top: 43px;
+}
+/* ellipse section ends here */
 
 /* portfolio section starts here */
 .portfolio-section {
