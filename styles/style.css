@@ -268,17 +268,17 @@ main {
 .sale-image-container {
   margin-top: 500px;
 }
-#lady {
+.sale-image-container #lady {
   position: absolute;
   left: 891px;
   bottom: 229px;
 }
-#discount {
+.sale-image-container #discount {
   position: absolute;
   left: 800px;
   bottom: 350px;
 }
-#party {
+.sale-image-container #party {
   position: absolute;
   left: 0;
   top: 300px;
@@ -429,9 +429,6 @@ main {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
-}
-.logos {
-  vertical-align: baseline;
 }
 
 hr {
