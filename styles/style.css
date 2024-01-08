@@ -228,6 +228,64 @@ main {
 }
 /* ellipse section ends here */
 
+/* sale-section starts here */
+.sale-section {
+  margin-top: 120px;
+  position: relative;
+}
+.sale-text-container {
+  max-width: 1068px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 69px;
+}
+
+.sale-title {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.sale-header {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.header-orange {
+  color: #f00;
+}
+.sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+.sale-image-container {
+  margin-top: 500px;
+}
+#lady {
+  position: absolute;
+  left: 891px;
+  bottom: 229px;
+}
+#discount {
+  position: absolute;
+  left: 800px;
+  bottom: 350px;
+}
+#party {
+  position: absolute;
+  left: 0;
+  top: 260px;
+  z-index: 1;
+}
+/* sale-section ends here */
+
 /* portfolio section starts here */
 .portfolio-section {
   margin: 120px 0;
@@ -373,8 +431,13 @@ main {
 .logos {
   vertical-align: baseline;
 }
+
 hr {
-  background: rgba(255, 255, 255, 0.15);
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 0;
 }
 .social-links {
   margin: 48px 0;
