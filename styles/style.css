@@ -281,7 +281,7 @@ main {
 .sale-image-container #party {
   position: absolute;
   left: 0;
-  top: 300px;
+  top: 350px;
   z-index: 1;
 }
 /* sale-section ends here */
